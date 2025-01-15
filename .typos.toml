@@ -1,0 +1,116 @@
+[default.extend-words]
+[files]
+extend-exclude = [
+]
+#error: `warnning` should be `warning`
+#  --> ./lua/richclip/init.lua:62:35
+#   |
+#62 |                 'To suppress this warnning and continue using the current "g.clipboard" settings,' ..
+#   |                                   ^^^^^^^^
+#   |
+#error: `ser` should be `set`
+#  --> ./lua/richclip/ser.lua:1
+#error: `commom` should be `common`
+#  --> ./lua/richclip/cmd.lua:11:25
+#   |
+#11 |     -- Just return some commom mime-types as the completion list.
+#   |                         ^^^^^^
+#   |
+#error: `perferred` should be `preferred`
+#  --> ./lua/richclip/cmd.lua:69:70
+#   |
+#69 |             msg = '"RichClip paste" take zero or one argument as the perferred mime-type',
+#   |                                                                      ^^^^^^^^^
+#   |
+#error: `intall` should be `install`
+#  --> ./bin/install.sh:11:11
+#   |
+#11 |     echo "intall.sh <richclip_version> <target_dir>"
+#   |           ^^^^^^
+#   |
+#error: `noet` should be `note`
+#  --> ./doc/richclip.txt:88:29
+#   |
+#88 | vim:tw=78:ts=8:ft=help:norl:noet:fen:noet:
+#   |                             ^^^^
+#   |
+#error: `noet` should be `note`
+#  --> ./doc/richclip.txt:88:38
+#   |
+#88 | vim:tw=78:ts=8:ft=help:norl:noet:fen:noet:
+#   |                                      ^^^^
+#   |
+#error: `ser` should be `set`
+#  --> ./tests/spec/utils_spec.lua:3:11
+#  |
+#3 | describe("ser tests", function()
+#  |           ^^^
+#  |
+#error: `ser` should be `set`
+#  --> ./tests/spec/ser_spec.lua:1
+#error: `ser` should be `set`
+#  --> ./tests/spec/ser_spec.lua:1:7
+#  |
+#1 | local ser = require("richclip.ser")
+#  |       ^^^
+#  |
+#error: `ser` should be `set`
+#  --> ./tests/spec/ser_spec.lua:1:31
+#  |
+#1 | local ser = require("richclip.ser")
+#  |                               ^^^
+#  |
+#error: `ser` should be `set`
+#  --> ./tests/spec/ser_spec.lua:18:11
+#   |
+#18 | describe("ser tests", function()
+#   |           ^^^
+#   |
+#error: `ser` should be `set`
+#  --> ./tests/spec/ser_spec.lua:21:9
+#   |
+#21 |         ser._write_header(sysobj)
+#   |         ^^^
+#   |
+#error: `ser` should be `set`
+#  --> ./tests/spec/ser_spec.lua:28:9
+#   |
+#28 |         ser._write_mime_type(sysobj, "text/plain")
+#   |         ^^^
+#   |
+#error: `ser` should be `set`
+#  --> ./tests/spec/ser_spec.lua:39:9
+#   |
+#39 |         ser._write_lines(sysobj, lines)
+#   |         ^^^
+#   |
+#error: `ser` should be `set`
+#  --> ./lua/richclip/api.lua:3:7
+#  |
+#3 | local ser = require("richclip.ser")
+#  |       ^^^
+#  |
+#error: `ser` should be `set`
+#  --> ./lua/richclip/api.lua:3:31
+#  |
+#3 | local ser = require("richclip.ser")
+#  |                               ^^^
+#  |
+#error: `ser` should be `set`
+#  --> ./lua/richclip/api.lua:23:5
+#   |
+#23 |     ser._write_header(sys_obj)
+#   |     ^^^
+#   |
+#error: `ser` should be `set`
+#  --> ./lua/richclip/api.lua:27:13
+#   |
+#27 |             ser._write_mime_type(sys_obj, type)
+#   |             ^^^
+#   |
+#error: `ser` should be `set`
+#  --> ./lua/richclip/api.lua:29:9
+#   |
+#29 |         ser._write_lines(sys_obj, sel.lines)
+#   |         ^^^
+#   |
